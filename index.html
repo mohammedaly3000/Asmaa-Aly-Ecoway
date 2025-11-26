@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>للتواصل مع أسماء علي موزع إيكواي</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #aee593; /* أخضر فاتح */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 450px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .link-box {
+            display: flex;
+            align-items: center;
+            background: #f0f0f0;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 14px;
+            text-decoration: none;
+            color: #000;
+            transition: 0.3s ease;
+        }
+
+        .link-box:hover {
+            background: #1b7d3c; /* أخضر غامق */
+            color: #fff;
+            transform: scale(1.03);
+        }
+
+        .icon img {
+            width: 40px;
+            height: 40px;
+            display: block;
+            transition: 0.3s ease;
+        }
+
+        .link-box:hover .icon img {
+            filter: brightness(0) invert(1);
+        }
+
+        .text {
+            font-size: 20px;
+            font-weight: bold;
+            transition: 0.3s ease;
+            margin-left: 10px;
+			margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a class="link-box" href="#" id="facebookLink" target="_blank">
+            <div class="icon"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg"></div>
+            <div class="text">  صفحة الفيسبوك  </div>
+        </a>
+
+        <a class="link-box" href="#" id="whatsappGroup" target="_blank">
+            <div class="icon"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg"></div>
+            <div class="text">  جروب الواتساب  </div>
+        </a>
+
+        <a class="link-box" href="#" id="whatsappMsg" target="_blank">
+            <div class="icon"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg"></div>
+            <div class="text">  إرسال رسالة واتساب  </div>
+        </a>
+
+        <a class="link-box" href="#" id="instagramLink" target="_blank">
+            <div class="icon"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg"></div>
+            <div class="text">  صفحة الإنستجرام  </div>
+        </a>
+    </div>
+</body>
+</html>
